@@ -1,0 +1,89 @@
+.sidebar {
+  width: 250px;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #ffffff;
+  padding: 10px 0;
+}
+
+.sidebar-nav {
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  color: #333;
+  font-size: 14px;
+}
+
+.sidebar-section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 16px;
+  color: #333;
+}
+
+.category-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: #333;
+  font-size: 14px;
+}
+
+.category-item:hover {
+  background-color: #f5f5f5;
+}
+
+.subcategory-list {
+  padding-left: 16px;
+}
+
+.subcategory-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.subcategory-item:hover {
+  background-color: #f5f5f5;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox.selected {
+  background-color: #333;
+  border-color: #333;
+}
+
+.checkmark {
+  color: white;
+  font-size: 12px;
+}
+
+.chevron {
+  font-size: 22px;
+ 
+}
+
+.chevron-right {
+  font-size: 16px;
+  
+  color: #999;
+}

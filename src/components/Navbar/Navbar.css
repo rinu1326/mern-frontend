@@ -1,0 +1,139 @@
+.navbar {
+    background-color: #013b70;
+    padding: 15px 0;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+
+  .search-container {
+    display: flex;
+    flex: 1;
+    max-width: 400px;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    font-size: 14px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+    color: #333;
+  }
+  
+  .search-button {
+    background-color: #f7a928;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: background-color 0.2s;
+  }
+  
+  .search-button:hover {
+    background-color: #e59817;
+  }
+  
+
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+  }
+  
+  .icon-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .nav-link {
+    color: rgb(67, 173, 243);
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .cart-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    gap: 5px;
+  }
+  
+  .nav-text {
+    margin-left: 5px;
+  }
+  
+  /* Badge styles */
+  .heart-badge, .cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #f7a928;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .search-container {
+      max-width: 100%;
+    }
+    
+    .navbar-actions {
+      width: 100%;
+      justify-content: space-around;
+    }
+  }

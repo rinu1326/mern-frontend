@@ -1,0 +1,48 @@
+.edit-product-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+  }
+  
+  .edit-product-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .edit-product-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .edit-product-container input,
+  .edit-product-container textarea,
+  .edit-product-container select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .variant-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .variant-row input {
+    flex: 1;
+  }
+  
+  .update-btn {
+    background-color: #f5a623;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
