@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import API from "./utils/api";
+import API from '../utils/api'; // Assuming this is a .js file
 import "./AuthForm.css";
 
 const Login = () => {
